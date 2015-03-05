@@ -1,0 +1,20 @@
+{
+    "name": "lukewatts/thistle",
+    "description": "Thistle is a small, modular framework for quickly turning a normal \"static\" html site into a \"hybrid\" CMS.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Watts",
+            "email": "luke@luke-watts.com"
+        },
+        {
+            "name": "Affinity4",
+            "email": "info@affinity4.ie"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "5.2.*",
+        "illuminate/database": "4.2.*"
+    }
+}
