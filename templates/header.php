@@ -61,15 +61,8 @@
   	<header id="site-header" class="site=-header" role="banner">
 
   		<nav id="main-nav" class="main-nav" role="navigation">
-  		  
-        <ul class="top-level-menu">
-  		 		<li class="menu-item <?php echo ( $url->is_home() ) ? 'active' : ''; ?>">
-            <a href="<?php $url->home_uri(); ?>">Home</a>
-          </li>
-          <li class="menu-item <?php echo ( $url->is_page( 'sample-page' ) ) ? 'active' : ''; ?>">
-            <a href="<?php $url->page( 'sample-page' ); ?>">Sample Page</a>
-          </li>
-  		  </ul>
+
+        <section id="logo" class="logo">Football App</section>
 
   		</nav>
 

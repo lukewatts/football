@@ -19,6 +19,11 @@ require_once( 'paths.php' );
 // URL helpers
 require_once( 'urls.php' );
 
+/**
+ * @since 3.3.0
+ */
+require_once( 'config/sessions.php' );
+
 // Set configuration values
 require_once( 'config/config.php' );
 
@@ -48,6 +53,7 @@ $url = new HTTP();
 $html = new HTML();
 $helper = new Helper();
 $meta = new Meta( $url );
+$errorHandler = new ErrorHandler();
 $plugin = new Plugin();
 new Mailer;
 

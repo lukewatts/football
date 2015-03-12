@@ -6,7 +6,9 @@ class Dashboard extends Controller {
 
     $user = User::all();
 
-    $this->view( 'dashboard/index', array( 'user' => $user->last() ), true );
+    session_start();
+
+    $this->view( 'dashboard/index', array( 'user' => $user->last(), 'url' => new HTTP  ), true );
 
   }
 
